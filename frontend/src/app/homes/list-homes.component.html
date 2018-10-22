@@ -1,0 +1,12 @@
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let home of homes.home">
+            <td><a [routerLink]="['/homes', home.id, 'data']">{{home.id}}</a></td>
+    </tbody>
+</table>

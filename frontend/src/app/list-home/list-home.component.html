@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let r of home.rooms">
+            <td>{{r.name}}</td>
+            <td>{{r.temperature}}</td>
+            <td>{{r.humidity}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
